@@ -1070,8 +1070,8 @@ nav > img {
   overflow: hidden;
   border-radius: 18px;
   box-shadow: inset 0px 2px 7px 9px #3b3b3b;
-  aspect-ratio: 3 / 4;
-  max-width: 300px;
+ 
+  max-width: 400px;
   margin: auto;
   background-color: #1a1a1a;
 }
