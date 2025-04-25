@@ -11,6 +11,27 @@
     <script type="text/javascript" src="https://trk.offeroftheyear.info/track.js?rtkcmpid=680798747d6a99a67a68f593"></script>
   </head>
   <body>
+    <div class="top-banner" style="background-color: #000000; color: #fdfdfd; text-align: center; padding: 10px; font-family: Arial, sans-serif; font-size: 14px; position: sticky; top: 0; z-index: 1000;">
+      <strong>Get Your Offer Today! Demand is excess and the stock is limited <span id="countdown">24:00:00</span></strong>
+</span>
+    </div>
+    <script>
+      const countdownElement = document.getElementById('countdown');
+      let countdownTime = 24 * 60 * 60; // 24 hours in seconds
+
+      function updateCountdown() {
+        const hours = Math.floor(countdownTime / 3600);
+        const minutes = Math.floor((countdownTime % 3600) / 60);
+        const seconds = countdownTime % 60;
+
+        countdownElement.textContent = `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+        if (countdownTime > 0) {
+          countdownTime--;
+        }
+      }
+
+      setInterval(updateCountdown, 1000);
+    </script>
     <header>
       <nav class="container">
         <img src="./imgs/logo.svg" alt="logo" />
@@ -53,7 +74,7 @@
 
         <section class="product-showcase">
             <div class="container">
-              <h2 class="product-title">Explore Our Top Keto Picks</h2>
+    </p>          <h2 class="product-title">Explore Our Top Keto Picks</h2>
               <p class="product-subtitle">Carefully selected, highly rated keto gummy brands loved by users.</p>
           
               <div class="product-image-group">
@@ -605,7 +626,7 @@
           </div>
           <div class="imgeContent">
             <div class="imgeContent-inner">
-              <img src="./imgs/gym-girl.jpg" alt="gym girl" />
+              <img src="./imgs/eat-girl.png" alt="gym girl" />
             </div>
             <p>
               After starting keto gummies, I experienced noticeable enhancements
