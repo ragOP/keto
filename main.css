@@ -1437,4 +1437,98 @@ blockquote p {
   .product-subtitle {
     font-size: 0.95rem;
   }
+  .content {
+    flex-direction: column;
+  }
+  .top-banner {
+    font-size: 18px !important;
+  }
+  .top-banner .retail { 
+    width: 40vw !important;
+  }
+}
+.top-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #77c043;
+  padding-left: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+}
+.retail > img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.top-banner .retail {
+  background: #ff00a6;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-top-left-radius: 12px;
+  text-align: center;
+  width: 30vw;
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.retail small {
+  display: block;
+  font-size: 12px;
+}
+.content {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background: #fffde7;
+}
+.left {
+  text-align: center;
+  position: relative;
+  width: 50vw;
+}
+.left img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.checkmark {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 40px;
+  height: 40px;
+}
+.right {
+  flex: 1;
+  text-align: center;
+  padding: 10px 20px;
+}
+.right p {
+  color: #ff00a6;
+  font-weight: bold;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+.right .price {
+  font-size: 40px;
+  font-weight: bold;
+  color: #333;
+}
+.right .price small {
+  font-size: 20px;
+  font-weight: normal;
+}
+.selected-btn {
+  margin-top: 15px;
+  background: #ff7300;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  width: 100%;
 }
