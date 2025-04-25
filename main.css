@@ -1493,7 +1493,8 @@ blockquote p {
   width: 50vw;
 }
 .left img {
-  width: 80%;
+  width: 60%;
+  
   margin-bottom: 10px;
 }
 .checkmark {
